@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HorizontalCalendarPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ya4-XF-ate">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="M8M-bT-G8i">
+                                    <size key="itemSize" width="80" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CalendarViewCell" id="rtp-EK-HqR" customClass="CalendarViewCell" customModule="HorizontalCalendarPicker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="15" width="80" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkG-xk-ty3">
+                                                    <rect key="frame" x="22.5" y="17" width="35.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="zkG-xk-ty3" firstAttribute="centerY" secondItem="rtp-EK-HqR" secondAttribute="centerY" id="4tN-72-FfT"/>
+                                            <constraint firstItem="zkG-xk-ty3" firstAttribute="centerX" secondItem="rtp-EK-HqR" secondAttribute="centerX" id="HHc-TI-2ci"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="zkG-xk-ty3" id="5Ch-uy-Y10"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="oq7-Ml-abw"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bbj-4z-6rg"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="selectedDateLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXB-BB-4pA">
+                                <rect key="frame" x="102" y="323" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fXB-BB-4pA" secondAttribute="trailing" constant="87" id="00J-4k-nlq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ya4-XF-ate" secondAttribute="bottom" constant="559" id="Kjr-C8-UUb"/>
+                            <constraint firstItem="Ya4-XF-ate" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SQ5-ji-r8o"/>
+                            <constraint firstItem="Ya4-XF-ate" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VUM-xh-ZJj"/>
+                            <constraint firstItem="fXB-BB-4pA" firstAttribute="top" secondItem="Ya4-XF-ate" secondAttribute="bottom" constant="215" id="jbM-Rd-LSE"/>
+                            <constraint firstItem="Ya4-XF-ate" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ksv-Sp-eQq"/>
+                            <constraint firstItem="fXB-BB-4pA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nQG-P6-bUG"/>
+                            <constraint firstItem="fXB-BB-4pA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pQR-CX-nj8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="calendarCollectionView" destination="Ya4-XF-ate" id="M3X-tG-tdi"/>
+                        <outlet property="selectedDateLabel" destination="fXB-BB-4pA" id="lru-ZI-zc4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		901E08FA1E65E29B00D4E60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E08F91E65E29B00D4E60E /* AppDelegate.swift */; };
+		901E08FC1E65E29B00D4E60E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E08FB1E65E29B00D4E60E /* ViewController.swift */; };
+		901E08FF1E65E29B00D4E60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901E08FD1E65E29B00D4E60E /* Main.storyboard */; };
+		901E09011E65E29B00D4E60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901E09001E65E29B00D4E60E /* Assets.xcassets */; };
+		901E09041E65E29B00D4E60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901E09021E65E29B00D4E60E /* LaunchScreen.storyboard */; };
+		901E090F1E65E29B00D4E60E /* HorizontalCalendarPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E090E1E65E29B00D4E60E /* HorizontalCalendarPickerTests.swift */; };
+		901E091A1E65E29B00D4E60E /* HorizontalCalendarPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E09191E65E29B00D4E60E /* HorizontalCalendarPickerUITests.swift */; };
+		901E09281E65E3C400D4E60E /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E09271E65E3C400D4E60E /* CalendarViewCell.swift */; };
+		901E092A1E65E51600D4E60E /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E09291E65E51600D4E60E /* CalendarModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		901E090B1E65E29B00D4E60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 901E08EE1E65E29B00D4E60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901E08F51E65E29B00D4E60E;
+			remoteInfo = HorizontalCalendarPicker;
+		};
+		901E09161E65E29B00D4E60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 901E08EE1E65E29B00D4E60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901E08F51E65E29B00D4E60E;
+			remoteInfo = HorizontalCalendarPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		901E08F61E65E29B00D4E60E /* HorizontalCalendarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalCalendarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901E08F91E65E29B00D4E60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		901E08FB1E65E29B00D4E60E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		901E08FE1E65E29B00D4E60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		901E09001E65E29B00D4E60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		901E09031E65E29B00D4E60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		901E09051E65E29B00D4E60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901E090A1E65E29B00D4E60E /* HorizontalCalendarPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalCalendarPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901E090E1E65E29B00D4E60E /* HorizontalCalendarPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCalendarPickerTests.swift; sourceTree = "<group>"; };
+		901E09101E65E29B00D4E60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901E09151E65E29B00D4E60E /* HorizontalCalendarPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalCalendarPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901E09191E65E29B00D4E60E /* HorizontalCalendarPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCalendarPickerUITests.swift; sourceTree = "<group>"; };
+		901E091B1E65E29B00D4E60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901E09271E65E3C400D4E60E /* CalendarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
+		901E09291E65E51600D4E60E /* CalendarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		901E08F31E65E29B00D4E60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09071E65E29B00D4E60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09121E65E29B00D4E60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		901E08ED1E65E29B00D4E60E = {
+			isa = PBXGroup;
+			children = (
+				901E08F81E65E29B00D4E60E /* HorizontalCalendarPicker */,
+				901E090D1E65E29B00D4E60E /* HorizontalCalendarPickerTests */,
+				901E09181E65E29B00D4E60E /* HorizontalCalendarPickerUITests */,
+				901E08F71E65E29B00D4E60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		901E08F71E65E29B00D4E60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901E08F61E65E29B00D4E60E /* HorizontalCalendarPicker.app */,
+				901E090A1E65E29B00D4E60E /* HorizontalCalendarPickerTests.xctest */,
+				901E09151E65E29B00D4E60E /* HorizontalCalendarPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		901E08F81E65E29B00D4E60E /* HorizontalCalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				901E08F91E65E29B00D4E60E /* AppDelegate.swift */,
+				901E09291E65E51600D4E60E /* CalendarModel.swift */,
+				901E08FB1E65E29B00D4E60E /* ViewController.swift */,
+				901E09271E65E3C400D4E60E /* CalendarViewCell.swift */,
+				901E08FD1E65E29B00D4E60E /* Main.storyboard */,
+				901E09001E65E29B00D4E60E /* Assets.xcassets */,
+				901E09021E65E29B00D4E60E /* LaunchScreen.storyboard */,
+				901E09051E65E29B00D4E60E /* Info.plist */,
+			);
+			path = HorizontalCalendarPicker;
+			sourceTree = "<group>";
+		};
+		901E090D1E65E29B00D4E60E /* HorizontalCalendarPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				901E090E1E65E29B00D4E60E /* HorizontalCalendarPickerTests.swift */,
+				901E09101E65E29B00D4E60E /* Info.plist */,
+			);
+			path = HorizontalCalendarPickerTests;
+			sourceTree = "<group>";
+		};
+		901E09181E65E29B00D4E60E /* HorizontalCalendarPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				901E09191E65E29B00D4E60E /* HorizontalCalendarPickerUITests.swift */,
+				901E091B1E65E29B00D4E60E /* Info.plist */,
+			);
+			path = HorizontalCalendarPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		901E08F51E65E29B00D4E60E /* HorizontalCalendarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901E091E1E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPicker" */;
+			buildPhases = (
+				901E08F21E65E29B00D4E60E /* Sources */,
+				901E08F31E65E29B00D4E60E /* Frameworks */,
+				901E08F41E65E29B00D4E60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalCalendarPicker;
+			productName = HorizontalCalendarPicker;
+			productReference = 901E08F61E65E29B00D4E60E /* HorizontalCalendarPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		901E09091E65E29B00D4E60E /* HorizontalCalendarPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901E09211E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPickerTests" */;
+			buildPhases = (
+				901E09061E65E29B00D4E60E /* Sources */,
+				901E09071E65E29B00D4E60E /* Frameworks */,
+				901E09081E65E29B00D4E60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				901E090C1E65E29B00D4E60E /* PBXTargetDependency */,
+			);
+			name = HorizontalCalendarPickerTests;
+			productName = HorizontalCalendarPickerTests;
+			productReference = 901E090A1E65E29B00D4E60E /* HorizontalCalendarPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		901E09141E65E29B00D4E60E /* HorizontalCalendarPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901E09241E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPickerUITests" */;
+			buildPhases = (
+				901E09111E65E29B00D4E60E /* Sources */,
+				901E09121E65E29B00D4E60E /* Frameworks */,
+				901E09131E65E29B00D4E60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				901E09171E65E29B00D4E60E /* PBXTargetDependency */,
+			);
+			name = HorizontalCalendarPickerUITests;
+			productName = HorizontalCalendarPickerUITests;
+			productReference = 901E09151E65E29B00D4E60E /* HorizontalCalendarPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		901E08EE1E65E29B00D4E60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michal Majchrzycki";
+				TargetAttributes = {
+					901E08F51E65E29B00D4E60E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 62SXNK2V32;
+						ProvisioningStyle = Automatic;
+					};
+					901E09091E65E29B00D4E60E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 901E08F51E65E29B00D4E60E;
+					};
+					901E09141E65E29B00D4E60E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 901E08F51E65E29B00D4E60E;
+					};
+				};
+			};
+			buildConfigurationList = 901E08F11E65E29B00D4E60E /* Build configuration list for PBXProject "HorizontalCalendarPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 901E08ED1E65E29B00D4E60E;
+			productRefGroup = 901E08F71E65E29B00D4E60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				901E08F51E65E29B00D4E60E /* HorizontalCalendarPicker */,
+				901E09091E65E29B00D4E60E /* HorizontalCalendarPickerTests */,
+				901E09141E65E29B00D4E60E /* HorizontalCalendarPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		901E08F41E65E29B00D4E60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901E09041E65E29B00D4E60E /* LaunchScreen.storyboard in Resources */,
+				901E09011E65E29B00D4E60E /* Assets.xcassets in Resources */,
+				901E08FF1E65E29B00D4E60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09081E65E29B00D4E60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09131E65E29B00D4E60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		901E08F21E65E29B00D4E60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901E09281E65E3C400D4E60E /* CalendarViewCell.swift in Sources */,
+				901E092A1E65E51600D4E60E /* CalendarModel.swift in Sources */,
+				901E08FC1E65E29B00D4E60E /* ViewController.swift in Sources */,
+				901E08FA1E65E29B00D4E60E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09061E65E29B00D4E60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901E090F1E65E29B00D4E60E /* HorizontalCalendarPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901E09111E65E29B00D4E60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901E091A1E65E29B00D4E60E /* HorizontalCalendarPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		901E090C1E65E29B00D4E60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 901E08F51E65E29B00D4E60E /* HorizontalCalendarPicker */;
+			targetProxy = 901E090B1E65E29B00D4E60E /* PBXContainerItemProxy */;
+		};
+		901E09171E65E29B00D4E60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 901E08F51E65E29B00D4E60E /* HorizontalCalendarPicker */;
+			targetProxy = 901E09161E65E29B00D4E60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		901E08FD1E65E29B00D4E60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901E08FE1E65E29B00D4E60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		901E09021E65E29B00D4E60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901E09031E65E29B00D4E60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		901E091C1E65E29B00D4E60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		901E091D1E65E29B00D4E60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		901E091F1E65E29B00D4E60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62SXNK2V32;
+				INFOPLIST_FILE = HorizontalCalendarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		901E09201E65E29B00D4E60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62SXNK2V32;
+				INFOPLIST_FILE = HorizontalCalendarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		901E09221E65E29B00D4E60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorizontalCalendarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalCalendarPicker.app/HorizontalCalendarPicker";
+			};
+			name = Debug;
+		};
+		901E09231E65E29B00D4E60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorizontalCalendarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalCalendarPicker.app/HorizontalCalendarPicker";
+			};
+			name = Release;
+		};
+		901E09251E65E29B00D4E60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HorizontalCalendarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HorizontalCalendarPicker;
+			};
+			name = Debug;
+		};
+		901E09261E65E29B00D4E60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HorizontalCalendarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prograils.com.HorizontalCalendarPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HorizontalCalendarPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		901E08F11E65E29B00D4E60E /* Build configuration list for PBXProject "HorizontalCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901E091C1E65E29B00D4E60E /* Debug */,
+				901E091D1E65E29B00D4E60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		901E091E1E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901E091F1E65E29B00D4E60E /* Debug */,
+				901E09201E65E29B00D4E60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		901E09211E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901E09221E65E29B00D4E60E /* Debug */,
+				901E09231E65E29B00D4E60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		901E09241E65E29B00D4E60E /* Build configuration list for PBXNativeTarget "HorizontalCalendarPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901E09251E65E29B00D4E60E /* Debug */,
+				901E09261E65E29B00D4E60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 901E08EE1E65E29B00D4E60E /* Project object */;
+}
