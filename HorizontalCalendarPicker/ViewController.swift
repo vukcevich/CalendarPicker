@@ -63,7 +63,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 self.collectionView(self.calendarCollectionView, didSelectItemAt: index!)
                 
                 self.selectedDate = (index?.row)!
-                self.selectedDateLabel.text = self.calendarArray?[(index?.row)!] as! String?
+                self.selectedDateLabel.text = self.calendarArray?[(index?.row)!] as? String
             }
             else {
             }
@@ -89,7 +89,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as! CalendarViewCell
         
-        cell.dateLabel.text = self.calendarArray?[indexPath.row] as! String?
+        cell.dateLabel.text = self.calendarArray?[indexPath.row] as? String
         return cell
     }
     
